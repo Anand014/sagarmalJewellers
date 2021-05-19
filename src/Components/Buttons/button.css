@@ -1,0 +1,41 @@
+.primarybtn {
+  width: max-content;
+  /* background-color: #d5b5a2; */
+  padding: 1rem 2rem;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+}
+
+.primarybtn a {
+  text-decoration: none;
+  color: black;
+  z-index: 1;
+  transition: 400ms;
+}
+
+.primarybtn::after {
+  content: "";
+  position: absolute;
+  background-color: #d5b5a2;
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 100%;
+  z-index: 0;
+  transition: 400ms;
+}
+
+.primarybtn:hover:after {
+  width: 100%;
+}
+
+.primarybtn:hover a {
+  color: white;
+}
+
+.trendingBtn {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}

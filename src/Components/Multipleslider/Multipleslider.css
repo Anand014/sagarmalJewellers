@@ -1,0 +1,32 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardhead img {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.cardbody {
+  margin: 1rem 0 30px 0;
+}
+
+.cardbody a {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.swiper-pagination-bullets {
+  bottom: 0px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}

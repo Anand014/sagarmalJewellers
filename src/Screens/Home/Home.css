@@ -1,0 +1,70 @@
+.multipleslider {
+  width: 80%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.shopbygender {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+.shopbygender a {
+  text-decoration: none;
+}
+
+.gendercardhead img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+}
+
+.gendercardbody p {
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.shopbygender-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.shopbygender-flex {
+  width: 80%;
+  margin: auto;
+}
+
+.trendingProducts-grid {
+  display: grid;
+  width: 80%;
+  margin: auto;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.trendingProducts {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.trendinghead img {
+  width: 18rem;
+  height: 25rem;
+  object-fit: contain;
+}
+
+.trendingbody span {
+  font-size: 12px;
+  font-weight: 100;
+}
+
+.homeVideo {
+  width: 100%;
+  height: 500px;
+  margin-top: 3rem;
+  overflow: hidden;
+}
+
+.homeVideo video {
+  width: 100%;
+}
