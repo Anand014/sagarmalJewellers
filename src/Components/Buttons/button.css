@@ -1,7 +1,7 @@
 .primarybtn {
   width: max-content;
   /* background-color: #d5b5a2; */
-  padding: 1rem 2rem;
+
   border: 1px solid black;
   cursor: pointer;
   position: relative;

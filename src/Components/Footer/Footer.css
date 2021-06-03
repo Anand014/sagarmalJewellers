@@ -1,0 +1,108 @@
+.footer-one {
+  margin-top: 2rem;
+  padding: 1rem;
+  width: 100%;
+  /* height: max-content; */
+  background-color: bisque;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.footerFirstElement {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* .footerFirstElement img {
+  margin: 0 0.5em;
+  background-color: #fff;
+  border-radius: 4px;
+} */
+
+.footerFirstElement h4 {
+  margin: 0 1em;
+}
+
+.footerFirstElementIcons * {
+  margin: 10px 10px;
+}
+
+.footerAbout {
+  margin-top: 1rem;
+}
+.footerAbout h4 {
+  font-size: 1.2rem;
+}
+.footerAbout p {
+  margin: 1rem 0;
+  font-weight: 200;
+}
+
+.footerHelp {
+  margin-top: 1rem;
+}
+
+.footerHelp h4 {
+  font-size: 1.2rem;
+}
+
+.footerHelp p {
+  font-weight: 200;
+  margin: 1rem 0;
+}
+
+.footerSubscribe {
+  margin-top: 1rem;
+}
+
+.footerSubscribe input {
+  margin-top: 1rem;
+  padding: 1rem 0.5rem;
+  width: 36ch;
+  background: none;
+  border: 1px solid black;
+}
+
+.footerInput {
+  position: relative;
+  width: max-content;
+  display: flex;
+}
+
+.footerbtn {
+  position: absolute;
+  top: 16px;
+  right: 0;
+  padding: 1rem;
+  border: 1px solid black;
+  background: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.footerApp {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footerAppLogo {
+  width: 60%;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-two {
+  margin: 1px 0;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  background-color: bisque;
+}
+.FsectionTwo a {
+  margin: 0 1rem;
+}

@@ -10,6 +10,8 @@
   height: 10rem;
   border-radius: 50%;
   object-fit: cover;
+  transition: 1s;
+  background-color: #e0d9d5;
 }
 
 .cardbody {

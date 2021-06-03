@@ -57,7 +57,7 @@ const Navbar = () => {
             <a>GOLD RATE</a>
             <div>
               <GrLocation style={{ marginRight: "5px" }} />
-              <a>BOUTIQUE LOCATOR</a>
+              <a>STORE LOCATOR</a>
             </div>
           </div>
           <div className="navSocial">

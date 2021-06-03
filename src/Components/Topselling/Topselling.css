@@ -1,0 +1,26 @@
+.topselling:nth-child(1) {
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.topsellingcard img {
+  width: 10rem;
+  height: 20rem;
+  object-fit: cover;
+  transition: 1s;
+  border: 1px solid rgb(211, 211, 2111);
+}
+
+.swiper-pagination-bullets {
+  bottom: 0px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: black;
+}
