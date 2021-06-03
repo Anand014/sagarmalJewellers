@@ -9,7 +9,10 @@
   height: 20rem;
   object-fit: cover;
   transition: 1s;
-  border: 1px solid rgb(211, 211, 2111);
+}
+
+.topsellingcard p {
+  margin: 0.5rem 0 1rem 0;
 }
 
 .swiper-pagination-bullets {

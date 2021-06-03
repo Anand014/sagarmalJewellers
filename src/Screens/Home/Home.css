@@ -66,10 +66,26 @@
   font-weight: 100;
 }
 
-/* .homeVideo video {
+.homeVideo {
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.homeVideo video {
   width: 100%;
   margin-top: 5rem;
-} */
+}
+
+.homeVideo img {
+  position: absolute;
+  padding: 1rem;
+  right: 10px;
+  bottom: 10px;
+  width: 6rem;
+  background-color: white;
+  border-radius: 1rem;
+}
 
 .topSelling {
   margin-top: 5rem;

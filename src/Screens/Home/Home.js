@@ -7,6 +7,8 @@ import trendingImage2 from "../../Assets/Images/trendingProducts/Image2.jpeg";
 import trendingImage3 from "../../Assets/Images/trendingProducts/Image3.jpeg";
 import trendingImage4 from "../../Assets/Images/trendingProducts/Image4.jpeg";
 // import homeVideo from "../../Assets/Videos/homeVideo.mp4";
+import homeVideo from "../../Assets/Videos/homeVideo1.mp4";
+import SagarmalLogo from "../../Assets/Images/sagarmallogo.png";
 import { Link } from "react-router-dom";
 import PrimaryBtn from "../../Components/Buttons/PrimaryBtn";
 import Topselling from "../../Components/Topselling/Topselling";
@@ -118,11 +120,12 @@ const Home = () => {
           />
         </div>
       </div>
-      {/* <div className="homeVideo">
+      <div className="homeVideo">
         <video autoPlay loop muted>
           <source src={homeVideo} type="video/mp4" />
         </video>
-      </div> */}
+        <img src={SagarmalLogo} />
+      </div>
 
       <div className="topSelling">
         <h1>Top Sellings</h1>

@@ -5,7 +5,9 @@ import earrings from "../../Assets/Images/topSelling/earrings.jpg";
 import pendant from "../../Assets/Images/topSelling/pendant.jpg";
 import necklaceSet from "../../Assets/Images/topSelling/necklaceSet.jpg";
 import bangles from "../../Assets/Images/topSelling/bangles.jpg";
+import fullset from "../../Assets/Images/topSelling/fullset.jpg";
 import earrings2 from "../../Assets/Images/topSelling/earrings2.jpg";
+import watch from "../../Assets/Images/topSelling/watch.jpg";
 
 const Topselling = () => {
   const params = {
@@ -53,7 +55,7 @@ const Topselling = () => {
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={bangles} />
+          <img src={fullset} />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
@@ -65,7 +67,7 @@ const Topselling = () => {
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={earrings} />
+          <img src={watch} />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
