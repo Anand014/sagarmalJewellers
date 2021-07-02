@@ -16,42 +16,43 @@ import bracelets from "../../Assets/Images/multiplesliderImage/bracelets.jpg";
 import Swiper from "react-id-swiper";
 import { Link } from "react-router-dom";
 
+const params = {
+  slidesPerView: 6,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  breakpoints: {
+    1400: {
+      slidesPerView: 6,
+      spaceBetween: 40,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+  },
+};
+
 const Multipleslider = () => {
-  const params = {
-    slidesPerView: 6,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      1400: {
-        slidesPerView: 6,
-        spaceBetween: 40,
-      },
-      1200: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 10,
-      },
-    },
-  };
   return (
     <div>
       <Swiper {...params}>
         <div className="card">
           <div className="cardhead">
-            <img src={PENDANTS} />
+            <img src={PENDANTS} alt="pendants" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">PENDANTS</Link>
@@ -59,7 +60,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={goldCoins} />
+            <img src={goldCoins} alt="goldCoins" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">GOLD COINS</Link>
@@ -67,7 +68,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={earrings} />
+            <img src={earrings} alt="earrings" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">EARRINGS</Link>
@@ -75,7 +76,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={fingerRing} />
+            <img src={fingerRing} alt="fingerRing" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">FINGER RINGS</Link>
@@ -83,7 +84,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={Bangles} />
+            <img src={Bangles} alt="Bangles" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">BANGLES</Link>
@@ -91,7 +92,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={giftCard} />
+            <img src={giftCard} alt="giftCard" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">GIFT CARD</Link>
@@ -99,7 +100,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={chains} />
+            <img src={chains} alt="chains" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">CHAINS</Link>
@@ -107,7 +108,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={mangalsutra} />
+            <img src={mangalsutra} alt="mangalsutra" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">MANGALSUTRA</Link>
@@ -115,7 +116,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={neckwear} />
+            <img src={neckwear} alt="neckwear" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">NECKWEAR</Link>
@@ -123,7 +124,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={neckWearset} />
+            <img src={neckWearset} alt="neckWearset" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">NECKWEAR SET</Link>
@@ -131,7 +132,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={nosePin} />
+            <img src={nosePin} alt="nosePin" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">NOSE PINS</Link>
@@ -139,7 +140,7 @@ const Multipleslider = () => {
         </div>
         <div className="card">
           <div className="cardhead">
-            <img src={bracelets} />
+            <img src={bracelets} alt="bracelets" loading="lazy" />
           </div>
           <div className="cardbody">
             <Link to="#">BRACELETS</Link>

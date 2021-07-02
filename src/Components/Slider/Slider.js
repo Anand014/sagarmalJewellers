@@ -25,19 +25,19 @@ const Slider = () => {
         <div className="swiper-lazy-preloader swiper-lazy-preloader-white" />
       </div>
       <div className="hero-slide">
-        <img src={image2} alt="image1" className="swiper-lazy" />
+        <img src={image2} alt="image2" className="swiper-lazy" />
         <div className="swiper-lazy-preloader swiper-lazy-preloader-white" />
       </div>
       <div className="hero-slide">
-        <img src={image3} alt="image1" className="swiper-lazy" />
+        <img src={image3} alt="image3" className="swiper-lazy" />
         <div className="swiper-lazy-preloader swiper-lazy-preloader-white" />
       </div>
       <div className="hero-slide">
-        <img src={image4} alt="image1" className="swiper-lazy" />
+        <img src={image4} alt="image4" className="swiper-lazy" />
         <div className="swiper-lazy-preloader swiper-lazy-preloader-white" />
       </div>
       <div className="hero-slide">
-        <img src={image5} alt="image1" className="swiper-lazy" />
+        <img src={image5} alt="image5" className="swiper-lazy" />
         <div className="swiper-lazy-preloader swiper-lazy-preloader-white" />
       </div>
     </Swiper>

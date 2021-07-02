@@ -21,6 +21,7 @@
   width: 15rem;
   height: 15rem;
   object-fit: cover;
+  background-color: #e0d9d5;
 }
 
 .gendercardbody p {
@@ -41,8 +42,6 @@
 
 .trendingProducts-grid {
   display: grid;
-  width: 80%;
-  margin: auto;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
@@ -82,7 +81,7 @@
   padding: 1rem;
   right: 10px;
   bottom: 10px;
-  width: 6rem;
+  width: calc(1.8rem + 5vw);
   background-color: white;
   border-radius: 1rem;
 }
@@ -101,7 +100,7 @@
   width: 80%;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   margin-top: 1rem;
   gap: 1rem;
 }
@@ -122,6 +121,7 @@
   width: 10rem;
   height: 12rem;
   object-fit: cover;
+  background-color: #e0d9d5;
 }
 
 .categoryBtn {
@@ -129,4 +129,25 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+@media only screen and (max-width: 630px) {
+  .category {
+    grid-template-columns: 1fr;
+  }
+  .itemCategory {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .itemImg img {
+    width: 100%;
+    height: auto;
+  }
+  .categoryBtn * {
+    margin: 0.5rem 0;
+  }
+  .homeVideo {
+    width: 100%;
+  }
 }

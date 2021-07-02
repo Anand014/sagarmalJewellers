@@ -6,7 +6,6 @@ import trendingImage1 from "../../Assets/Images/trendingProducts/Image1.jpeg";
 import trendingImage2 from "../../Assets/Images/trendingProducts/Image2.jpeg";
 import trendingImage3 from "../../Assets/Images/trendingProducts/Image3.jpeg";
 import trendingImage4 from "../../Assets/Images/trendingProducts/Image4.jpeg";
-// import homeVideo from "../../Assets/Videos/homeVideo.mp4";
 import homeVideo from "../../Assets/Videos/homeVideo1.mp4";
 import SagarmalLogo from "../../Assets/Images/sagarmallogo.png";
 import { Link } from "react-router-dom";
@@ -15,7 +14,6 @@ import Topselling from "../../Components/Topselling/Topselling";
 import PENDANTS from "../../Assets/Images/multiplesliderImage/Pendant.jpg";
 import Bangles from "../../Assets/Images/multiplesliderImage/Bangles.jpg";
 import fingerRing from "../../Assets/Images/multiplesliderImage/fingerRing.jpg";
-import Footer from "../../Components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -32,7 +30,11 @@ const Home = () => {
             <Link to="#">
               <div className="genderCard">
                 <div className="gendercardhead">
-                  <img src="https://images.pexels.com/photos/2865977/pexels-photo-2865977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                  <img
+                    src="https://images.pexels.com/photos/2865977/pexels-photo-2865977.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="pexelImage"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="gendercardbody">
                   <p>MEN</p>
@@ -42,7 +44,11 @@ const Home = () => {
             <Link to="#">
               <div className="genderCard">
                 <div className="gendercardhead">
-                  <img src="https://images.pexels.com/photos/2106685/pexels-photo-2106685.jpeg?cs=srgb&dl=pexels-farddin-protik-2106685.jpg&fm=jpg" />
+                  <img
+                    src="https://images.pexels.com/photos/2106685/pexels-photo-2106685.jpeg?cs=srgb&dl=pexels-farddin-protik-2106685.jpg&fm=jpg"
+                    alt="pexelImage"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="gendercardbody">
                   <p>WOMEN</p>
@@ -52,7 +58,11 @@ const Home = () => {
             <Link to="#">
               <div className="genderCard">
                 <div className="gendercardhead">
-                  <img src="https://images.pexels.com/photos/1249306/pexels-photo-1249306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                  <img
+                    src="https://images.pexels.com/photos/1249306/pexels-photo-1249306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="pexelImage"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="gendercardbody">
                   <p>KIDS</p>
@@ -62,7 +72,11 @@ const Home = () => {
             <Link to="#">
               <div className="genderCard">
                 <div className="gendercardhead">
-                  <img src="https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?cs=srgb&dl=pexels-kumar-saurabh-1456613.jpg&fm=jpg" />
+                  <img
+                    src="https://images.pexels.com/photos/1456613/pexels-photo-1456613.jpeg?cs=srgb&dl=pexels-kumar-saurabh-1456613.jpg&fm=jpg"
+                    alt="pexelImage"
+                    loading="lazy"
+                  />
                 </div>
                 <div className="gendercardbody">
                   <p>PAIR</p>
@@ -77,7 +91,7 @@ const Home = () => {
         <div className="trendingProducts-grid">
           <div className="trendingcard">
             <div className="trendinghead">
-              <img src={trendingImage1} />
+              <img src={trendingImage1} alt="TrendingImage" loading="lazy" />
             </div>
             <div className="trendingbody">
               <p>Gold necklace set with earings</p>
@@ -86,7 +100,7 @@ const Home = () => {
           </div>
           <div className="trendingcard">
             <div className="trendinghead">
-              <img src={trendingImage2} />
+              <img src={trendingImage2} alt="TrendingImage" loading="lazy" />
             </div>
             <div className="trendingbody">
               <p>Gold necklace set with earings</p>
@@ -95,7 +109,7 @@ const Home = () => {
           </div>
           <div className="trendingcard">
             <div className="trendinghead">
-              <img src={trendingImage3} />
+              <img src={trendingImage3} alt="TrendingImage" loading="lazy" />
             </div>
             <div className="trendingbody">
               <p>Gold necklace set with earings</p>
@@ -104,7 +118,7 @@ const Home = () => {
           </div>
           <div className="trendingcard">
             <div className="trendinghead">
-              <img src={trendingImage4} />
+              <img src={trendingImage4} alt="TrendingImage" loading="lazy" />
             </div>
             <div className="trendingbody">
               <p>Gold necklace set with earings</p>
@@ -122,7 +136,7 @@ const Home = () => {
       </div>
       <div className="homeVideo">
         <video autoPlay loop muted>
-          <source src={homeVideo} type="video/mp4" />
+          <source src={homeVideo} type="video/mp4" loading="lazy" />
         </video>
         <img src={SagarmalLogo} />
       </div>
@@ -142,7 +156,7 @@ const Home = () => {
           <h3>Bangles</h3>
           <div className="itemCategory">
             <div className="itemImg">
-              <img src={Bangles} />
+              <img src={Bangles} alt="CategoryImage" loading="lazy" />
             </div>
             <div className="categoryBtn">
               <PrimaryBtn
@@ -168,7 +182,7 @@ const Home = () => {
           <h3>Pendants</h3>
           <div className="itemCategory">
             <div className="itemImg">
-              <img src={PENDANTS} />
+              <img src={PENDANTS} alt="CategoryImage" loading="lazy" />
             </div>
             <div className="categoryBtn">
               <PrimaryBtn
@@ -194,7 +208,7 @@ const Home = () => {
           <h3>Finger ring</h3>
           <div className="itemCategory">
             <div className="itemImg">
-              <img src={fingerRing} />
+              <img src={fingerRing} alt="CategoryImage" loading="lazy" />
             </div>
             <div className="categoryBtn">
               <PrimaryBtn
@@ -220,7 +234,11 @@ const Home = () => {
           <h3>Earrings</h3>
           <div className="itemCategory">
             <div className="itemImg">
-              <img src="https://images.pexels.com/photos/2732096/pexels-photo-2732096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+              <img
+                src="https://images.pexels.com/photos/2732096/pexels-photo-2732096.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                alt="CategoryImage"
+                loading="lazy"
+              />
             </div>
             <div className="categoryBtn">
               <PrimaryBtn
@@ -241,10 +259,6 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </div>
-
-      <div>
-        <Footer />
       </div>
     </div>
   );

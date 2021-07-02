@@ -9,6 +9,7 @@
   height: 20rem;
   object-fit: cover;
   transition: 1s;
+  background-color: #e0d9d5;
 }
 
 .topsellingcard p {

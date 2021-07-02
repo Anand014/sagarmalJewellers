@@ -1,0 +1,60 @@
+.pendantPage {
+  display: flex;
+  position: relative;
+}
+
+.filterSection {
+  padding: 0 1rem;
+  width: 25%;
+  transition: 400ms;
+}
+
+.allProducts {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  padding: 0 2rem;
+}
+
+.allProducts * {
+  justify-self: center;
+}
+
+.sortBySection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10rem 2rem 1rem 0.2rem;
+}
+
+.filterShow {
+  display: none;
+}
+
+.sortElement {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1060px) {
+  .filterSection {
+    width: 40%;
+  }
+}
+
+@media only screen and (max-width: 814px) {
+  .filterSection {
+    width: 80%;
+    /* display: none; */
+    position: fixed;
+    left: -50rem;
+  }
+  .filterShow {
+    display: block;
+    position: fixed;
+    top: 10.2rem;
+    z-index: 995;
+  }
+}

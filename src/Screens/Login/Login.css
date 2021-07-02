@@ -1,0 +1,57 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+}
+
+.loginForm h1 {
+  margin: 1rem 0;
+}
+
+.login {
+  width: 500px;
+  max-width: 80%;
+  border: 1px solid rgb(211, 211, 211);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0;
+}
+
+.login > label {
+  margin-top: 1rem;
+}
+
+.login input {
+  padding: 1rem 0.5rem;
+  width: 80%;
+}
+
+.forgotPassword {
+  margin-top: 1rem;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.login button {
+  padding: 1rem;
+  width: 80%;
+  margin: 1rem 0;
+  background-color: black;
+  color: white;
+  font-weight: 900;
+  letter-spacing: 1px;
+  cursor: pointer;
+  border: none;
+}
+
+.registerSection {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.registerSection a {
+  color: black;
+}

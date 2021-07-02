@@ -9,69 +9,69 @@ import fullset from "../../Assets/Images/topSelling/fullset.jpg";
 import earrings2 from "../../Assets/Images/topSelling/earrings2.jpg";
 import watch from "../../Assets/Images/topSelling/watch.jpg";
 
+const topSellingParams = {
+  slidesPerView: 6,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+  // loop: true,
+  effect: "slide",
+  breakpoints: {
+    1400: {
+      slidesPerView: 6,
+      spaceBetween: 40,
+    },
+    1200: {
+      slidesPerView: 4,
+      spaceBetween: 40,
+    },
+    768: {
+      slidesPerView: 3,
+      spaceBetween: 30,
+    },
+    640: {
+      slidesPerView: 2,
+      spaceBetween: 20,
+    },
+    320: {
+      slidesPerView: 1,
+      spaceBetween: 10,
+    },
+  },
+};
+
 const Topselling = () => {
-  const params = {
-    slidesPerView: 6,
-
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    // loop: true,
-    effect: "slide",
-    breakpoints: {
-      1400: {
-        slidesPerView: 6,
-        spaceBetween: 40,
-      },
-      1200: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-      },
-      768: {
-        slidesPerView: 3,
-        spaceBetween: 30,
-      },
-      640: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      320: {
-        slidesPerView: 1,
-        spaceBetween: 10,
-      },
-    },
-  };
-
   return (
     <div className="topselling">
-      <Swiper {...params}>
+      <Swiper {...topSellingParams}>
         <div className="topsellingcard">
-          <img src={earrings} />
+          <img src={earrings} alt="TopSelling" loading="lazy" />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={pendant} />
+          <img src={pendant} alt="TopSelling" loading="lazy" />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={fullset} />
+          <img src={fullset} alt="TopSelling" loading="lazy" />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={earrings2} />
+          <img src={earrings2} alt="TopSelling" loading="lazy" />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={necklaceSet} />
+          <img src={necklaceSet} alt="TopSelling" loading="lazy" />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={watch} />
+          <img src={watch} alt="TopSelling" loading="lazy" />
           <p>₹ Price</p>
         </div>
         <div className="topsellingcard">
-          <img src={bangles} />
+          <img src={bangles} alt="TopSelling" loading="lazy" />
           <p>₹ Price</p>
         </div>
       </Swiper>

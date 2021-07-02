@@ -5,7 +5,7 @@
   /* height: max-content; */
   background-color: bisque;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 
 .footerFirstElement {
@@ -105,4 +105,14 @@
 }
 .FsectionTwo a {
   margin: 0 1rem;
+}
+
+@media only screen and (max-width: 550px) {
+  .footer-two {
+    flex-direction: column-reverse;
+  }
+
+  .FsectionTwo {
+    margin: 0.5rem 0;
+  }
 }
