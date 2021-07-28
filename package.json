@@ -1,6 +1,7 @@
 {
   "name": "sagarmal_jewellers",
   "version": "0.1.0",
+  "homepage": "http://www.sagarmaljewellers.in",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
